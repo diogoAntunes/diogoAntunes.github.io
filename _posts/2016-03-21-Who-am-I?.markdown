@@ -1,0 +1,19 @@
+---
+title:  "Who am I?"
+date:   2016-03-21
+categories: [about]
+tags: [about]
+---
+Hello World, my name is Diogo Antunes and you can find me at [Twitter](https://twitter.com/DSwifting) or [Github](https://github.com/diogoAntunes). 
+
+I'm a Telecommunications and Computer Engineer from Portugal, i love food, wine, tv shows and Swift! Swift is the best! Currently I'm an iOS developer at Bliss Applications, mostly just Swift (Obj-c is in the past).
+I'm passionate about teaching and finding the best possible away to solve problems, as a result i created, with the help of my friend [John Mourato](https://twitter.com/_JARMourato), a place where we could teach Swift and best practices in general when working with the language. We called it [SwiftCamp](https://github.com/SwiftCamp).
+
+It all started out as a way for us to teach our coworkers (who's past was mostly in the ObjectiveC land) some Swift. Initially we did some live talks about it, then we decided to launch a weekly issue [iOSwiftCamp](https://www.getrevue.co/profile/iOSwiftCamp), and finally we created a github account where we share playgrounds containing several exercises to practice Swift. 
+
+My dream is to be a nomad developer, travel around the world, solve engineering problems, blog, and spent time with my family.
+
+The goal of this website is to share my thoughts and discoveries in the iOS universe. Hope everyone has fun reading it as much as i have writting it.
+
+Cheers</br>
+Diogo

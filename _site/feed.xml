@@ -3,20 +3,31 @@
   <channel>
     <title>Diogo Antunes @dSwifting</title>
     <description>iOS Engineer @blissapps</description>
-    <link>http://dantunes.me//jekyll-uno//</link>
-    <atom:link href="http://dantunes.me//jekyll-uno//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Mar 2016 15:09:55 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Mar 2016 15:09:55 +0000</lastBuildDate>
+    <link>http://dantunes.me///</link>
+    <atom:link href="http://dantunes.me///feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 21 Mar 2016 19:38:31 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Mar 2016 19:38:31 +0000</lastBuildDate>
     <generator>Jekyll v3.0.2</generator>
     
       <item>
-        <title>Welcome</title>
-        <description>&lt;p&gt;Hello World, my name is Diogo Antunes (@dSwifting)&lt;/p&gt;
+        <title>Who am I?</title>
+        <description>&lt;p&gt;Hello World, my name is Diogo Antunes and you can find me at &lt;a href=&quot;https://twitter.com/DSwifting&quot;&gt;Twitter&lt;/a&gt; or &lt;a href=&quot;https://github.com/diogoAntunes&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;I’m a Telecommunications and Computer Engineer from Portugal, i love food, wine, tv shows and Swift! Swift is the best! Currently I’m an iOS developer at Bliss Applications, mostly just Swift (Obj-c is in the past).
+I’m passionate about teaching and finding the best possible away to solve problems, as a result i created, with the help of my friend &lt;a href=&quot;https://twitter.com/_JARMourato&quot;&gt;John Mourato&lt;/a&gt;, a place where we could teach Swift and best practices in general when working with the language. We called it &lt;a href=&quot;https://github.com/SwiftCamp&quot;&gt;SwiftCamp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It all started out as a way for us to teach our coworkers (who’s past was mostly in the ObjectiveC land) some Swift. Initially we did some live talks about it, then we decided to launch a weekly issue &lt;a href=&quot;https://www.getrevue.co/profile/iOSwiftCamp&quot;&gt;iOSwiftCamp&lt;/a&gt;, and finally we created a github account where we share playgrounds containing several exercises to practice Swift.&lt;/p&gt;
+
+&lt;p&gt;My dream is to be a nomad developer, travel around the world, solve engineering problems, blog, and spent time with my family.&lt;/p&gt;
+
+&lt;p&gt;The goal of this website is to share my thoughts and discoveries in the iOS universe. Hope everyone has fun reading it as much as i have writting it.&lt;/p&gt;
+
+&lt;p&gt;Cheers&amp;lt;/br&amp;gt;
+Diogo&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Mar 2016 00:00:00 +0000</pubDate>
-        <link>http://dantunes.me//jekyll-uno//2016/Welcome/</link>
-        <guid isPermaLink="true">http://dantunes.me//jekyll-uno//2016/Welcome/</guid>
+        <link>http://dantunes.me///2016/Who-am-I/</link>
+        <guid isPermaLink="true">http://dantunes.me///2016/Who-am-I/</guid>
         
         <category>about</category>
         
