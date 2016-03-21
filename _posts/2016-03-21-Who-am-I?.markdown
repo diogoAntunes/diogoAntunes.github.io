@@ -15,5 +15,6 @@ My dream is to be a nomad developer, travel around the world, solve engineering 
 
 The goal of this website is to share my thoughts and discoveries in the iOS universe. Hope everyone has fun reading it as much as i have writting it.
 
-Cheers</br>
+Cheers
+
 Diogo
