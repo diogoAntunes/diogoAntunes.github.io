@@ -1,0 +1,39 @@
+# Site settings
+title: Diogo Antunes @dSwifting
+description: 'iOS Engineer @blissapps'
+url: 'http://dantunes.me/'
+baseurl: '/jekyll-uno'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Diogo Antunes'
+  email: diogo.antunes@gmail.com
+  twitter_username: dSwifting
+  #facebook_username: joshgerdes
+  github_username:  diogoAntunes
+  linkedin_username:  antunesdiogo
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
