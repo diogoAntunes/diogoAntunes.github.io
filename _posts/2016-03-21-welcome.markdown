@@ -1,6 +1,6 @@
 ---
-title:  "Welcome!!!"
-date:   2016-03-21 15:04:23
+title:  "Welcome"
+date:   2016-03-21
 categories: [about]
 tags: [about]
 ---
