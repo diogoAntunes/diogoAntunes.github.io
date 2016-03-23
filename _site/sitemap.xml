@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://dantunes.me//2016/Private-Selectors/</loc>
+      
+        <lastmod>2016-03-23T00:00:00+00:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://dantunes.me//2016/Who-am-I/</loc>
       
         <lastmod>2016-03-21T00:00:00+00:00</lastmod>
@@ -21,7 +36,7 @@
     <url>
       <loc>http://dantunes.me//categories/</loc>
       
-        <lastmod>2016-03-21T19:38:31+00:00</lastmod>
+        <lastmod>2016-03-23T11:36:32+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +51,7 @@
     <url>
       <loc>http://dantunes.me//feed.xml</loc>
       
-        <lastmod>2016-03-21T19:38:31+00:00</lastmod>
+        <lastmod>2016-03-23T11:36:32+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +66,7 @@
     <url>
       <loc>http://dantunes.me//</loc>
       
-        <lastmod>2016-03-21T19:38:31+00:00</lastmod>
+        <lastmod>2016-03-23T11:36:32+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +81,7 @@
     <url>
       <loc>http://dantunes.me//js/main.js</loc>
       
-        <lastmod>2016-03-21T19:38:31+00:00</lastmod>
+        <lastmod>2016-03-23T11:36:32+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -83,7 +98,7 @@
     <url>
       <loc>http://dantunes.me//tags/</loc>
       
-        <lastmod>2016-03-21T19:38:31+00:00</lastmod>
+        <lastmod>2016-03-23T11:36:32+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
