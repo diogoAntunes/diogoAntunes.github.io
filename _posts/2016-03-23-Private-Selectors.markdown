@@ -36,5 +36,6 @@ newButton.addTarget(nil,
 
 @objc private func privateSelector() { }
 ```
+Hope you enjoyed the post, hit me on any social media if you have any questions, commentaries or anything at all ;)
 
-
+Catch you laterz
