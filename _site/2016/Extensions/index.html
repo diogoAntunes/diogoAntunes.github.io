@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Categories</title>
+  <title>Extensions</title>
   <meta name="description" content="iOS Engineer @blissapps">
   <meta name="author" content="Diogo Antunes">
   <meta name="HandheldFriendly" content="True">
@@ -43,7 +43,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://dantunes.me///categories/">
+  <link rel="canonical" href="http://dantunes.me///2016/Extensions/">
   <link rel="alternate" type="application/rss+xml" title="Diogo Antunes @dSwifting" href="/feed.xml">
 </head>
 
@@ -144,87 +144,55 @@
 
     <div class="content-wrapper">
       <div class="content-wrapper__inner">
-        <h2>Categories:</h2>
-<div class="categories"> 
- 
-  <a href="#about">about</a>
- 
-  <a href="#Selector">Selector</a>
- 
-  <a href="#Extensions">Extensions</a>
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="26 Apr 2016" class="post-meta__date date">26 Apr 2016</time> &#8226; <span class="post-meta__tags">on <a href="/tags/#Extensions">Extensions</a> <a href="/tags/#Swift 2.2">Swift 2.2</a> <a href="/tags/#UIColor">UIColor</a> </span>
+    </div>
+    <h1 class="post-title">Extensions</h1>
+  </header>
 
+  <section class="post">
+    <p>Swift extensions are powerful and with a little  bit of help they let you write cool and safe code. An example of this is:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">extension</span> <span class="kt">UIColor</span> <span class="p">{</span>
+
+ <span class="kd">enum</span> <span class="kt">Colors</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span>
+	<span class="k">case</span> <span class="kt">Red</span> <span class="o">=</span> <span class="mh">0xEA524B</span>
+	<span class="k">case</span> <span class="kt">Green</span> <span class="o">=</span> <span class="mh">0x81C73A</span>
+ <span class="p">}</span>
+    
+ <span class="n">convenience</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span> <span class="p">{</span>
+ 	<span class="k">let</span> <span class="nv">red</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">((</span><span class="n">hex</span> <span class="o">&amp;</span> <span class="mh">0xFF0000</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="mi">16</span><span class="p">)</span> <span class="o">/</span> <span class="mf">255.0</span>
+	<span class="k">let</span> <span class="nv">green</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">((</span><span class="n">hex</span> <span class="o">&amp;</span> <span class="mh">0xFF00</span><span class="p">)</span> <span class="o">&gt;&gt;</span> <span class="mi">8</span><span class="p">)</span> <span class="o">/</span> <span class="mf">255.0</span>
+	<span class="k">let</span> <span class="nv">blue</span> <span class="o">=</span> <span class="kt">CGFloat</span><span class="p">((</span><span class="n">hex</span> <span class="o">&amp;</span> <span class="mh">0xFF</span><span class="p">))</span> <span class="o">/</span> <span class="mf">255.0</span>
+	<span class="k">self</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="n">red</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="n">green</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="n">blue</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="n">alpha</span><span class="p">)</span>
+ <span class="p">}</span>
+    
+ <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">color</span><span class="p">:</span> <span class="kt">Colors</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">self</span><span class="o">.</span><span class="nf">init</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="n">color</span><span class="o">.</span><span class="n">rawValue</span><span class="p">)</span>
+ <span class="p">}</span>
+ 
+<span class="p">}</span>
+</code></pre>
 </div>
 
-<!-- iterate through all categories on the site --> 
- 
-  <!-- for each tag, create an anchor by using the tag name as an id --> 
-  <div id="about">  
-    <h3> about </h3>  <!-- for create a heading --> 
+<p>This enables us to use UIColor in our code in a much convenience way and centralizes all the information regarding colors on our project. For instance, to change the color on an UIView:</p>
 
-    <ul> <!-- create the list of posts -->
-      <!-- iterate through all the posts on the site --> 
-       
-        <!-- list only those which contain the current tag --> 
-        
-       
-        <!-- list only those which contain the current tag --> 
-        
-       
-        <!-- list only those which contain the current tag --> 
-         
-            <li>
-              <a href="/2016/Who-am-I/">Who am I?</a>
-            </li>
-        
-      
-    </ul>
-  </div>
- 
-  <!-- for each tag, create an anchor by using the tag name as an id --> 
-  <div id="Selector">  
-    <h3> Selector </h3>  <!-- for create a heading --> 
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="p">(</span><span class="nv">color</span><span class="p">:</span> <span class="o">.</span><span class="kt">Red</span><span class="p">)</span>
+</code></pre>
+</div>
 
-    <ul> <!-- create the list of posts -->
-      <!-- iterate through all the posts on the site --> 
-       
-        <!-- list only those which contain the current tag --> 
-        
-       
-        <!-- list only those which contain the current tag --> 
-         
-            <li>
-              <a href="/2016/Private-Selectors/">Private Selectors</a>
-            </li>
-        
-       
-        <!-- list only those which contain the current tag --> 
-        
-      
-    </ul>
-  </div>
- 
-  <!-- for each tag, create an anchor by using the tag name as an id --> 
-  <div id="Extensions">  
-    <h3> Extensions </h3>  <!-- for create a heading --> 
+<p>In my opinion this is an excellent solution and makes your code more concise, explicit and overall more clean.</p>
 
-    <ul> <!-- create the list of posts -->
-      <!-- iterate through all the posts on the site --> 
-       
-        <!-- list only those which contain the current tag --> 
-         
-            <li>
-              <a href="/2016/Extensions/">Extensions</a>
-            </li>
-        
-       
-        <!-- list only those which contain the current tag --> 
-        
-       
-        <!-- list only those which contain the current tag --> 
-        
-      
-    </ul>
-  </div>
+<p>Hope you enjoyed the post, any questions feel free to reach me on <a href="https://twitter.com/DSwifting">Twitter</a> ;)</p>
+
+
+  </section>
+  
+</article>
+
+
 
       </div>
 
